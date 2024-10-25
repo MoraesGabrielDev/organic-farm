@@ -160,7 +160,7 @@
   
   div.formulario_container{
     background-color: var(--branco);
-    height: 180vh;
+    height: 80vh;
     width: 40vh;
     border-radius: 25px;
     display: flex;
@@ -213,7 +213,7 @@
   
   div.formulario_container{
     background-color: var(--branco);
-    height: 180vh;
+    height: 80vh;
     width: 40vh;
     border-radius: 25px;
     display: flex;
