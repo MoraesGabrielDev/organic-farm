@@ -154,13 +154,13 @@
   .logo{
     width: 15em;
     background-color: var(--cor-principal);
-    margin-top: 20em;
+    margin-top: 18em;
   }
   
   
   div.formulario_container{
     background-color: var(--branco);
-    height: 80vh;
+    height: 60vh;
     width: 40vh;
     border-radius: 25px;
     display: flex;
