@@ -1,0 +1,105 @@
+
+/*config logo*/
+.logo_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--cor-principal);
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  height: 55vh;
+}
+
+
+.logo{
+  width: 25em;
+  background-color: var(--cor-principal);
+  margin-top: 20em;
+}
+
+.formulario_container{
+  background-color: var(--branco);
+  height: 100vh;
+  width: 80vh;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*configs formulario*/
+.titulo_formulario{
+  text-align: center;
+  padding: 1em;
+  font-family: var(--fonte-principal);
+  font-weight: 300;
+}
+
+
+
+.input_formulario{
+  width: 70%;
+border: 2px solid var(--cor-de-fundo);
+border-radius: 8px;
+margin-bottom: 0.8em;
+padding: 0.7em 1em;
+font-family: var(--fonte-principal);
+}
+
+
+/*botoes fomrulario*/
+.botoes-formulario{
+  margin: 1em 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+.botao_entrar_formulario{
+  color: var(--branco);
+  text-decoration: none;
+  background-color: var(--cor-principal );
+  padding: 1em 0;
+  border-radius: 15px;
+  font-family: var(--fonte-principal);
+  font-weight: 300;
+  width: 350px;
+  text-align: center;
+  border: 1px solid transparent; 
+  transition: all 0.3s ease;
+}
+
+.botao_entrar_formulario:hover{
+  color: var(--cor-principal);
+  background-color: var(--cor-de-fundo);
+  border: 1px solid var(--branco);
+}
+
+.botao_esqueci_minha_senha{
+  color: var(--cor-principal);
+  text-decoration: none;
+  background-color: var(--branco );
+  margin-top: 1em;
+  padding: 1em 0;
+  border-radius: 15px;
+  font-family: var(--fonte-principal);
+  font-weight: 300;
+  width: 350px;
+  text-align: center;
+  border: 1px solid transparent; 
+  transition: all 0.3s ease;
+}
+
+.botao_esqueci_minha_senha:hover{
+ color: var(--cor-principal);
+  background-color: var(--cor-de-fundo);
+  border: 1px solid var(--branco);
+}
+
+/*media queries*/
+
