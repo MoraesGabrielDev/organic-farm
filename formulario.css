@@ -32,7 +32,7 @@
 /*configs formulario*/
 .titulo_formulario{
   text-align: center;
-  padding: 1em;
+ 
   font-family: var(--fonte-principal);
   font-weight: 300;
 }
@@ -64,7 +64,7 @@ font-family: var(--fonte-principal);
   color: var(--branco);
   text-decoration: none;
   background-color: var(--cor-principal );
-  padding: 1em 0;
+  padding: 0.8em 0;
   border-radius: 15px;
   font-family: var(--fonte-principal);
   font-weight: 300;
